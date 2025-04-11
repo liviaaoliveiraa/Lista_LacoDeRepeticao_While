@@ -1,5 +1,9 @@
-let moedas = 3;
-while (moedas < 12){
-    moedas += 3;
-    moedas++
-    console.log ()
+let total = 0;
+let moedas = 0;
+
+while ( total < 12 ) {
+    moedas++;
+    total += 3 ;
+    console.log ( `Passo ${moedas}: Total = ${total } reais`);
+}
+console.log (`Total de moedas: ${moedas}`);
